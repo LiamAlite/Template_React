@@ -83,3 +83,42 @@ module.exports = {
   ]
 }
 ```
+
+### GitHub Pages公開設定
+
+#### gh-pagesパッケージの追加
+`npm install gh-pages --save-dev`
+
+#### .github/workflows/gh-pages.yml
+```yaml
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # デプロイをトリガーするブランチを指定
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14" # Node.jsのバージョンを指定
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the React app
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
