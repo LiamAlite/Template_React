@@ -20,7 +20,7 @@
 
 #### src/tailwind.config.js
 
-```
+```javascript
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -32,7 +32,7 @@ module.exports = {
 
 #### src/index.css
 
-```
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -44,7 +44,7 @@ module.exports = {
 
 #### .vscode/settings.json
 
-```
+```json
 {
   "cSpell.words": ["tailwindcss"],
 
@@ -71,7 +71,7 @@ module.exports = {
 
 #### .vscode/extensions.json
 
-```
+```json
 {
   "recommendations": [
     "esbenp.prettier-vscode", // Prettier
