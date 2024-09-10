@@ -1,5 +1,5 @@
 {
-  "homepage": "https://LiamAltie.github.io/Template_React",
+  "homepage": "https://liamaltie.github.io//Template_React",
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://x-access-token:${GITHUB_TOKEN}@github.com/LiamAltie/Template_React.git"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
