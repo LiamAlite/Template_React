@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode", // Prettier
+    "dbaeumer.vscode-eslint", // ESLint
+    "csstools.postcss", // PostCSS
+    "bradlc.vscode-tailwindcss", // TailwindCSS IntelliSense
+    "christian-kohler.path-intellisense", // Path IntelliSense
+    "streetsidesoftware.code-spell-checker" // Spell checker
+  ]
+}

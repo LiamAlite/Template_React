@@ -1,0 +1,22 @@
+{
+  "cSpell.words": ["tailwindcss"],
+
+  // エディタの設定
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // JSXやTSXでのEmmetサポート
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // ファイルパスの自動補完
+  "path-intellisense.mappings": {
+    "/src": "${workspaceFolder}/src"
+  },
+
+  // 拡張機能の推奨
+  "extensions.ignoreRecommendations": false
+}
