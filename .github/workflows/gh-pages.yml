@@ -13,6 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "liam@altie.dev"
+
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -20,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./app # ここでappディレクトリを指定
+        working-directory: ./app # appディレクトリを指定
 
       - name: Build the React app
         run: npm run build
