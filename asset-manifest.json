@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Template_React/static/css/main.289271cd.css",
-    "main.js": "/Template_React/static/js/main.a6d69228.js",
-    "static/js/453.a6a97343.chunk.js": "/Template_React/static/js/453.a6a97343.chunk.js",
-    "service-worker.js": "/Template_React/service-worker.js",
-    "static/media/logo.svg": "/Template_React/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
-    "index.html": "/Template_React/index.html",
-    "main.289271cd.css.map": "/Template_React/static/css/main.289271cd.css.map",
-    "main.a6d69228.js.map": "/Template_React/static/js/main.a6d69228.js.map",
-    "453.a6a97343.chunk.js.map": "/Template_React/static/js/453.a6a97343.chunk.js.map"
+    "main.css": "//Template_React/static/css/main.289271cd.css",
+    "main.js": "//Template_React/static/js/main.fc77a510.js",
+    "static/js/453.a6a97343.chunk.js": "//Template_React/static/js/453.a6a97343.chunk.js",
+    "service-worker.js": "//Template_React/service-worker.js",
+    "static/media/logo.svg": "//Template_React/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "//Template_React/index.html",
+    "main.289271cd.css.map": "//Template_React/static/css/main.289271cd.css.map",
+    "main.fc77a510.js.map": "//Template_React/static/js/main.fc77a510.js.map",
+    "453.a6a97343.chunk.js.map": "//Template_React/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.289271cd.css",
-    "static/js/main.a6d69228.js"
+    "static/js/main.fc77a510.js"
   ]
 }
